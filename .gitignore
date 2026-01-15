@@ -26,10 +26,5 @@ npm-debug.log*
 coverage/
 .nyc_output/
 
-# Test files
-**/__tests__/
-**/*.test.ts
-**/*.spec.ts
-
 # Results
 results/*.json
