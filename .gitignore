@@ -1,4 +1,4 @@
-﻿# Dependencies
+# Dependencies
 node_modules/
 
 # Environment variables
@@ -25,6 +25,11 @@ npm-debug.log*
 # Test coverage
 coverage/
 .nyc_output/
+
+# Test files
+**/__tests__/
+**/*.test.ts
+**/*.spec.ts
 
 # Results
 results/*.json

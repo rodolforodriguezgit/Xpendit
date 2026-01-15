@@ -14,7 +14,11 @@ module.exports = {
   ],
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
+    '^node-fetch$': '<rootDir>/node_modules/node-fetch',
   },
+  transformIgnorePatterns: [
+    'node_modules/(?!(node-fetch)/)',
+  ],
   globals: {
     'ts-jest': {
       tsconfig: {
